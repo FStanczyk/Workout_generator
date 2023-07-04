@@ -27,10 +27,7 @@ pub fn filter_by_attribute_simple(
         let record = result?;
         let check_attr: u8 = record[attr].parse()?;
 
-        let dev = match deviation {
-            Some(d) => d,
-            None => 0,
-        };
+        let dev = deviation.unwrap_or(0);
 
         if check_attr <= value + dev && check_attr as i8 >= value as i8 - dev as i8 {
             match list {

@@ -7,31 +7,31 @@ macro_rules! read {
     };
 }
 
-enum MUSCLE {
-    Bicep, 
-    Tricep,
-    Arm,
-    ABS,
-    Chest,
-    Back,
-    Calves,
-    Legs
-}
+// enum MUSCLE {
+//     Bicep, 
+//     Tricep,
+//     Arm,
+//     ABS,
+//     Chest,
+//     Back,
+//     Calves,
+//     Legs
+// }
 
-use crate::generator;
-fn make_me_a_plan(
-    bicep: u8,
-    tricep: u8,
-    arm: u8,
-    abs: u8,
-    chest: u8,
-    back: u8,
-    calves: u8,
-    legs: u8,
+// use crate::generator;
+// fn make_me_a_plan(
+//     bicep: u8,
+//     tricep: u8,
+//     arm: u8,
+//     abs: u8,
+//     chest: u8,
+//     back: u8,
+//     calves: u8,
+//     legs: u8,
 
-    diff: u8,
-    units_per_week: u8,
-    goal: generator::GOAL
-){
+//     diff: u8,
+//     units_per_week: u8,
+//     goal: generator::GOAL
+// ){
     
-}
+// }
